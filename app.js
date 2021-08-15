@@ -46,17 +46,6 @@ document.querySelector(".btn-roll").addEventListener("click", function() {
     // Үгүй бол идэвхтэй тоглогчийг 0 болго.
     activePlayer === 0 ? (activePlayer = 1) : (activePlayer = 0);
 
-    // var obj = {
-    //   name: "amaraa",
-    //   job: "programmer",
-    //   address: {
-    //     city: "ub",
-    //     country: "mn"
-    //   }
-    // };
-
-    // obj.address.country;
-
     // Улаан цэгийг шилжүүлэх
     document.querySelector(".player-0-panel").classList.toggle("active");
     document.querySelector(".player-1-panel").classList.toggle("active");
