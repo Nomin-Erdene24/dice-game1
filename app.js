@@ -70,3 +70,4 @@ function switchToNextPlayer() {
   // Шоог түр алга болгоно.
   diceDom.style.display = "none";
 }
+// shine togloom
